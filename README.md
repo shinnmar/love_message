@@ -1,7 +1,7 @@
 # love_message
 Try to say "no" to this date question and see a message :3 
 
-this is a spanish version inspired from 🔖 <a href="https://github.com/jeycaarce/message">jeycaarce/message</a>
+this is a spanish version inspired from 🔖 <a href="https://github.com/jeycaarce/message" target="_blank">jeycaarce/message</a>
 
 I added the style to hide the "No" button after the "Yes" is clicked, center the "Yes" button and the responsive view for mobile.
 
