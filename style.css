@@ -46,7 +46,7 @@ h2 {
   margin-top: 50px;
 }
 
-.btn {
+button {
   position: absolute;
   width: 150px;
   height: inherit;
@@ -62,12 +62,12 @@ h2 {
 
 button:nth-child(1) {
   margin-left: -200px;
-  background: #e94d58;
+  background: var(--red);
 }
 
 button:nth-child(2) {
   margin-right: -200px;
   background-color: var(--white);
-  color: #e94d58;
+  color: var(--red);
   overflow-x: hidden;
 }
