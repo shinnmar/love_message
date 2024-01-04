@@ -4,11 +4,18 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main-bg: #faf5f5;
+  --white: #FFFFFF;
+  --red: #e94d58;
+  --grey: #868585;
+}
+
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: whitesmoke;
+  background-color: var(--main-bg);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -27,7 +34,7 @@ body {
 h2 {
   text-align: center;
   font-size: 1.5em;
-  color: #e94d58;
+  color: var(--red);
   margin: 15px 0;
 }
 
@@ -39,17 +46,17 @@ h2 {
   margin-top: 50px;
 }
 
-button {
+.btn {
   position: absolute;
   width: 150px;
   height: inherit;
-  color: white;
+  color: var(--white);
   font-size: 1.2em;
   border-radius: 30px;
   outline: none;
   cursor: pointer;
-  box-shadow: 0 2px 4px gray;
-  border: 2px solid #e94d58;
+  box-shadow: 0 2px 4px var(--grey);
+  border: 2px solid var(--red);
   font-size: 1.2em;
 }
 
@@ -60,7 +67,7 @@ button:nth-child(1) {
 
 button:nth-child(2) {
   margin-right: -200px;
-  background: white;
+  background-color: var(--white);
   color: #e94d58;
   overflow-x: hidden;
 }
